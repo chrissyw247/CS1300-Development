@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/CS1300-Development/static/media/dead.9cfea630.jpg"
   },
   {
-    "revision": "b507a00c2ae9d6ff53f7",
+    "revision": "9637024b7d0317116109",
     "url": "/CS1300-Development/static/css/main.c5d8da41.chunk.css"
   },
   {
@@ -17,7 +17,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "6a133ad41786c506e572cae7a060bea2",
-    "url": "/CS1300-Development/static/media/alice2.6a133ad4.jpg"
+    "url": "/CS1300-Development/static/media/alice.6a133ad4.jpg"
   },
   {
     "revision": "41f5165ce70de248c95c41be91f10e52",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/CS1300-Development/static/media/crazy.fbb4aad5.jpg"
   },
   {
-    "revision": "b507a00c2ae9d6ff53f7",
-    "url": "/CS1300-Development/static/js/main.b507a00c.chunk.js"
+    "revision": "9637024b7d0317116109",
+    "url": "/CS1300-Development/static/js/main.9637024b.chunk.js"
   },
   {
     "revision": "1178a41136503ae2535c2318fcb5a666",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
     "url": "/CS1300-Development/static/media/zoo.c9b68fca.jpg"
   },
   {
-    "revision": "dd595261b16e15eda21c88d260baa675",
+    "revision": "bdea1ce384d16adad412227aa1222d34",
     "url": "/CS1300-Development/index.html"
   }
 ];
