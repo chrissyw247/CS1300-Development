@@ -34,10 +34,17 @@ class FilteredList extends Component {
     this.setState({rated: eventKey});
   }
 
-  sortByScore = () => {
+  sortByScoreHighLow = () => {
     this.setState({
-       currItems: this.state.currItems.sort(this.sortScore),
-       sort: "Score"
+       currItems: this.state.currItems.sort(this.sortScoreHighLow),
+       sort: "Score High to Low"
+    });
+  }
+
+  sortByScoreLowHigh = () => {
+    this.setState({
+       currItems: this.state.currItems.sort(this.sortScoreLowHigh),
+       sort: "Score Low to High"
     });
   }
 
@@ -48,7 +55,7 @@ class FilteredList extends Component {
     });
   }
 
-  sortScore = (item1, item2) => {
+  sortScoreHighLow = (item1, item2) => {
       /* If they have the same score, sort by name */
       if (item2.score - item1.score === 0) {
           return this.sortName(item1, item2); 
@@ -56,6 +63,16 @@ class FilteredList extends Component {
       else {
           return item2.score - item1.score; 
       }  
+  }
+
+  sortScoreLowHigh = (item1, item2) => {
+    /* If they have the same score, sort by name */
+    if (item2.score - item1.score === 0) {
+        return this.sortName(item1, item2); 
+    }
+    else {
+        return item1.score - item2.score; 
+    }  
   }
 
   sortName = (item1, item2) => {
@@ -106,7 +123,7 @@ class FilteredList extends Component {
         <div className = "filters">
 
           <div className = "button-container">
-          <DropdownButton bsSize = {this.state.windowWidth <= 590 && this.state.windowWidth >= 450 ? 'small' : 'default'} class = "dropdown" id="genreDropdown" title={"Genre: " + this.state.genre}>
+          <DropdownButton bsSize = {this.state.windowWidth <= 590 && this.state.windowWidth >= 480 ? 'small' : 'default'} class = "dropdown" id="genreDropdown" title={"Genre: " + this.state.genre}>
             <MenuItem eventKey="All" active = {this.state.genre === "All"} onSelect={this.onChoseGenre}>All</MenuItem>
             <MenuItem eventKey="Action" active = {this.state.genre === "Action"} onSelect={this.onChoseGenre}>Action</MenuItem>
             <MenuItem eventKey="Adventure" active = {this.state.genre === "Adventure"} onSelect={this.onChoseGenre}>Adventure</MenuItem>
@@ -121,7 +138,7 @@ class FilteredList extends Component {
           </div>
 
           <div className = "button-container">
-          <DropdownButton bsSize = {this.state.windowWidth <= 590 && this.state.windowWidth >= 450 ? 'small' : 'default'} class = "dropdown"  id="ratingDropdown" title={"Rated: " + this.state.rated}>
+          <DropdownButton bsSize = {this.state.windowWidth <= 590 && this.state.windowWidth >= 480 ? 'small' : 'default'} class = "dropdown"  id="ratingDropdown" title={"Rated: " + this.state.rated}>
             <MenuItem eventKey="All" active = {this.state.rated === "All"} onSelect={this.onChoseRated}>All</MenuItem>
             <MenuItem eventKey="G" active = {this.state.rated === "G"} onSelect={this.onChoseRated}>G</MenuItem>
             <MenuItem eventKey="PG" active = {this.state.rated === "PG"}  onSelect={this.onChoseRated}>PG</MenuItem>
@@ -131,9 +148,10 @@ class FilteredList extends Component {
           </div>
 
           <div className = "button-container">
-          <DropdownButton bsSize = {this.state.windowWidth <= 590 && this.state.windowWidth >= 450 ? 'small' : 'default'} class = "dropdown" id="sortDropdown" title={"Sort by: " + this.state.sort}>
+          <DropdownButton bsSize = {this.state.windowWidth <= 590 && this.state.windowWidth >= 480 ? 'small' : 'default'} class = "dropdown" id="sortDropdown" title={"Sort by: " + this.state.sort}>
             <MenuItem active = {this.state.sort === "Name"}  onSelect={this.sortByName}>Name</MenuItem>
-            <MenuItem active = {this.state.sort === "Score"} onSelect={this.sortByScore}>Score</MenuItem>
+            <MenuItem active = {this.state.sort === "Score High to Low"} onSelect={this.sortByScoreHighLow}>Score High to Low</MenuItem>
+            <MenuItem active = {this.state.sort === "Score Low to High"} onSelect={this.sortByScoreLowHigh}>Score Low to High</MenuItem>
           </DropdownButton>
           </div>
 
