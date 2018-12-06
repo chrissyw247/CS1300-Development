@@ -18,6 +18,7 @@
     font-size: calc(12px + 0.3vw);
     text-align: center; 
     margin-top: 10px;
+    margin-bottom: 20px
 }
 
 .full-container {
@@ -34,7 +35,7 @@
 .movie-container {
     box-sizing: border-box; 
     margin-right: calc(11% + 105px); 
-    margin-top: 20px;
+    margin-bottom: 20px;
     position: relative;
 }
  
