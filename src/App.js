@@ -6,7 +6,7 @@ import FilteredList from './FilteredList';
 //TODO (FilteredList): create a produce list using the 'const' variable keyword
 
 const movies = [
-//	{name: "Alice in Wonderland", score: 6.5, genre: ["Family", "Adventure", "Fantasy"], rated: "PG", image: "alice.jpg"},
+	{name: "Alice in Wonderland", score: 6.5, genre: ["Family", "Adventure", "Fantasy"], rated: "PG", image: "alice.jpg"},
 	{name: "Atomic Blonde", score: 6.7, genre: ["Action", "Drama"], rated: "R", image: "atomic.jpg"},
 	{name: "Baby Driver", score: 7.6, genre: ["Drama", "Action", "Crime"], rated: "R", image: "baby.jpg"},
 	{name: "Batman v Superman", score: 6.5, genre: ["Action", "Adventure", "Fantasy"], rated: "PG-13", image: "batman.jpg"},
