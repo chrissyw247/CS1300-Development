@@ -1,9 +1,9 @@
 {
-  "main.css": "/CS1300-Development/static/css/main.e9c4002b.chunk.css",
-  "main.js": "/CS1300-Development/static/js/main.205a69b0.chunk.js",
-  "main.js.map": "/CS1300-Development/static/js/main.205a69b0.chunk.js.map",
-  "static/js/1.090aa323.chunk.js": "/CS1300-Development/static/js/1.090aa323.chunk.js",
-  "static/js/1.090aa323.chunk.js.map": "/CS1300-Development/static/js/1.090aa323.chunk.js.map",
+  "main.css": "/CS1300-Development/static/css/main.c5d8da41.chunk.css",
+  "main.js": "/CS1300-Development/static/js/main.8edc0d3a.chunk.js",
+  "main.js.map": "/CS1300-Development/static/js/main.8edc0d3a.chunk.js.map",
+  "static/js/1.aa58c20f.chunk.js": "/CS1300-Development/static/js/1.aa58c20f.chunk.js",
+  "static/js/1.aa58c20f.chunk.js.map": "/CS1300-Development/static/js/1.aa58c20f.chunk.js.map",
   "runtime~main.js": "/CS1300-Development/static/js/runtime~main.4c226e87.js",
   "runtime~main.js.map": "/CS1300-Development/static/js/runtime~main.4c226e87.js.map",
   "static/media/pacific.jpeg": "/CS1300-Development/static/media/pacific.159bd5d5.jpeg",
@@ -31,8 +31,8 @@
   "static/media/super.jpg": "/CS1300-Development/static/media/super.a5ca920c.jpg",
   "static/media/tarzan.jpg": "/CS1300-Development/static/media/tarzan.f2c73eca.jpg",
   "static/media/zoo.jpg": "/CS1300-Development/static/media/zoo.c9b68fca.jpg",
-  "static/css/main.e9c4002b.chunk.css.map": "/CS1300-Development/static/css/main.e9c4002b.chunk.css.map",
+  "static/css/main.c5d8da41.chunk.css.map": "/CS1300-Development/static/css/main.c5d8da41.chunk.css.map",
   "index.html": "/CS1300-Development/index.html",
-  "precache-manifest.c0a951991a55139aab9778c091858aaf.js": "/CS1300-Development/precache-manifest.c0a951991a55139aab9778c091858aaf.js",
+  "precache-manifest.872f064be84eba75fa5f9aa42629a111.js": "/CS1300-Development/precache-manifest.872f064be84eba75fa5f9aa42629a111.js",
   "service-worker.js": "/CS1300-Development/service-worker.js"
 }
