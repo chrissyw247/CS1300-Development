@@ -1,13 +1,13 @@
 {
   "main.css": "/CS1300-Development/static/css/main.c5d8da41.chunk.css",
-  "main.js": "/CS1300-Development/static/js/main.8edc0d3a.chunk.js",
-  "main.js.map": "/CS1300-Development/static/js/main.8edc0d3a.chunk.js.map",
+  "main.js": "/CS1300-Development/static/js/main.b507a00c.chunk.js",
+  "main.js.map": "/CS1300-Development/static/js/main.b507a00c.chunk.js.map",
   "static/js/1.aa58c20f.chunk.js": "/CS1300-Development/static/js/1.aa58c20f.chunk.js",
   "static/js/1.aa58c20f.chunk.js.map": "/CS1300-Development/static/js/1.aa58c20f.chunk.js.map",
   "runtime~main.js": "/CS1300-Development/static/js/runtime~main.4c226e87.js",
   "runtime~main.js.map": "/CS1300-Development/static/js/runtime~main.4c226e87.js.map",
   "static/media/pacific.jpeg": "/CS1300-Development/static/media/pacific.159bd5d5.jpeg",
-  "static/media/alice.jpg": "/CS1300-Development/static/media/alice.6a133ad4.jpg",
+  "static/media/alice2.jpg": "/CS1300-Development/static/media/alice2.6a133ad4.jpg",
   "static/media/atomic.jpg": "/CS1300-Development/static/media/atomic.8ff3e3c4.jpg",
   "static/media/baby.jpg": "/CS1300-Development/static/media/baby.58ced017.jpg",
   "static/media/batman.jpg": "/CS1300-Development/static/media/batman.0b9b1a6a.jpg",
@@ -33,6 +33,6 @@
   "static/media/zoo.jpg": "/CS1300-Development/static/media/zoo.c9b68fca.jpg",
   "static/css/main.c5d8da41.chunk.css.map": "/CS1300-Development/static/css/main.c5d8da41.chunk.css.map",
   "index.html": "/CS1300-Development/index.html",
-  "precache-manifest.872f064be84eba75fa5f9aa42629a111.js": "/CS1300-Development/precache-manifest.872f064be84eba75fa5f9aa42629a111.js",
+  "precache-manifest.5914e012159ced9427a96c948cfe6cf3.js": "/CS1300-Development/precache-manifest.5914e012159ced9427a96c948cfe6cf3.js",
   "service-worker.js": "/CS1300-Development/service-worker.js"
 }
